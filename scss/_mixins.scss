@@ -1,9 +1,8 @@
 /* Mixins scss file */
 
-@mixin bdorL(){
-  border-left: 1px solid $col-grey1;
+@mixin media($width) {
+  @media only screen and (min-width: $width) {
+    @content;
+  }
 }
 
-@mixin col($width) {
-    
-}

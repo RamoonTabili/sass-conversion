@@ -272,7 +272,7 @@ footer {
                 MEDIA QUERIES
 ***********************************************/
 
-@media all and (min-width: $breakpoint-small) {
+@include media($breakpoint-small) {
   header {
     width: 700px;
     margin: 0 auto;
@@ -314,7 +314,7 @@ footer {
           line-height: 2rem;
           min-height: 6rem;
           border: none;
-          @include bdorL;
+          border-left: 1px solid $col-grey1;
           padding: 1.0rem;
           background-color: $col-white;
           &:last-child {
@@ -362,7 +362,7 @@ footer {
   }
 }
 
-@media all and (min-width: $breakpoint-medium) {
+@include media($breakpoint-medium) {
   header {
     width: 900px;
     margin: 0 auto;
@@ -404,7 +404,7 @@ footer {
           line-height: 2rem;
           min-height: 2rem;
           border: none;
-          @include bdorL;
+          border-left: 1px solid $col-grey1;
           padding: 0 1.0rem;
           margin: 1.0rem 0;
           background-color: $col-white;
@@ -481,7 +481,7 @@ footer {
   }
 }
 
-@media all and (min-width: $breakpoint-large) {
+@include media($breakpoint-large) {
   header {
     width: 1400px;
     margin: 0 auto;
@@ -523,7 +523,7 @@ footer {
           line-height: 2rem;
           min-height: 2rem;
           border: none;
-          @include bdorL;
+          border-left: 1px solid $col-grey1;
           padding: 0 1.0rem;
           margin: 1.0rem 0;
           background-color: $col-white;
