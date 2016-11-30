@@ -1,0 +1,9 @@
+/* Mixins scss file */
+
+@mixin bdorL(){
+  border-left: 1px solid $col-grey1;
+}
+
+@mixin col($width) {
+    
+}
